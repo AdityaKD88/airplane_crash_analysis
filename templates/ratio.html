@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container">
+    <div class="col">
+        <div class="row">
+            <div id="home" class="content">
+                <h2>Proportion</h2>
+                <p>It shows the ratio between people that died & survived</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="row-md">
+            <div id='chart11' class='chart'></div>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                Plotly.plot('chart11',{{graph11 | safe}})
+            </script>
+        </div>
+        <br>
+        <div class="row">
+            <div id='chart12' class='chart'></div>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                Plotly.plot('chart12',{{graph12 | safe}})
+            </script>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
+

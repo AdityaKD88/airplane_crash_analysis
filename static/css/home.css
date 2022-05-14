@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Orbitron");
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("https://cdn.hswstatic.com/gif/plane-crash1-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 15px;
+}
+
+.button-1 {
+  text-align: center;
+  font-family: Montserrat;
+  padding: 10px 20px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    margin: 1vw;
+    text-align: center;
+    font-size: 4vw;
+    line-height: 5vw;
+    }
+ 
+  #div {
+    color: white;
+    background: rgb(218,165,32);
+    margin: 70px;
+    line-height: 45px;
+    border-color: white;
+    border-width: 1vh;
+    border-style: double;
+  }

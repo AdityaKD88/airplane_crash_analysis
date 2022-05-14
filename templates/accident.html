@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container">
+    <div class="col">
+        <div class="row">
+            <div id="home" class="content">
+                <h2>Number of Accidents</h2>
+                <p>It shows the number of plane crash during different years, months, etc.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="row-md">
+            <div id='chart1' class='chart'></div>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                Plotly.plot('chart1',{{graph1 | safe}})
+            </script>
+        </div>
+        <br>
+        <div class="row">
+            <div id='chart2' class='chart'></div>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                Plotly.plot('chart2',{{graph2 | safe}})
+            </script>
+        </div>
+        <br>
+        <div class="row">
+            <div id='chart3' class='chart'></div>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                Plotly.plot('chart3',{{graph3 | safe}})
+            </script>
+        </div>
+        <br>
+        <div class="row">
+            <div id='chart4' class='chart'></div>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                Plotly.plot('chart4',{{graph4 | safe}})
+            </script>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
+

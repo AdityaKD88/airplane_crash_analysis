@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Orbitron");
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(231, 65, 15);
+  background-size: cover;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding-top: 240px;
+}
+
+header {
+  padding: 30px;
+  height: 70px;
+}
+header h1 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1c222b;
+}
+
+.content {
+  padding-right: 200px;
+  left: 0px;
+  top: 50px;
+  position: absolute;
+}
+
+.content h2 {
+  font-size: 80px;
+  font-family: Orbitron;
+  margin-top: 52px;
+  color: #9797be;
+}
+
+.content p {
+  font-size: 18px;
+  padding: 10px;
+  color: #d4c361;
+  display: inline-block;
+  border: 1px solid #007CBF;
+}
+
+.app{
+  padding-top: 20px;
+  padding-left: 12%;
+}
+
+#header {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 15px;
+}
+
+.button-1 {
+  text-align: center;
+  font-family: Montserrat;
+  padding: 10px 20px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
