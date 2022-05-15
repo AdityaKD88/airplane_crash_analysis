@@ -28,6 +28,12 @@ header h1 {
   color: #1c222b;
 }
 
+#header {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 15px;
+}
+
 .content {
   padding-right: 200px;
   left: 0px;
